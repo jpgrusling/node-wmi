@@ -1,0 +1,40 @@
+{
+  "name": "node-wmi",
+  "version": "0.0.1",
+  "description": "Library to execute wmi (Windows Management Instrumentation) commands.",
+  "main": "lib/node-wmi.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "debug": "^2.2.0",
+    "moment": "^2.10.6",
+    "xml2js": "^0.4.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgrusling/node-wmi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jgrusling/node-wmi/issues"
+  },
+  "author": {
+    "name": "JP Grusling",
+    "email": "jpgrusling@gmail.com"
+  },
+  "keywords": [
+    "wmi",
+    "wmic",
+    "windows management instrumentation"
+  ],
+  "license": "MIT",
+  "readme": "README.md",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}
