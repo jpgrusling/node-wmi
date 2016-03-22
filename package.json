@@ -1,6 +1,6 @@
 {
   "name": "node-wmi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library to execute wmi (Windows Management Instrumentation) commands.",
   "main": "lib/node-wmi.js",
   "scripts": {
@@ -29,7 +29,6 @@
     "windows management instrumentation"
   ],
   "license": "MIT",
-  "readme": "README.md",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-jscs": "^3.0.2",
