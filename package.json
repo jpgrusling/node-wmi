@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgrusling/node-wmi.git"
+    "url": "https://github.com/jpgrusling/node-wmi.git"
   },
   "bugs": {
-    "url": "https://github.com/jgrusling/node-wmi/issues"
+    "url": "https://github.com/jpgrusling/node-wmi/issues"
   },
   "author": {
     "name": "JP Grusling",
