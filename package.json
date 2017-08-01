@@ -1,6 +1,6 @@
 {
   "name": "node-wmi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Library to execute wmi (Windows Management Instrumentation) commands.",
   "main": "lib/node-wmi.js",
   "scripts": {
