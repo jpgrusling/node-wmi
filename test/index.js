@@ -9,7 +9,9 @@ async.auto({
       class: 'Win32_LogicalDisk'
     }, cb);
   },
-  chainWithExec: wmi.Query().class('Win32_LogicalDisk').exec,
+  chainWithExec: function(cb) {
+    wmi.Query().class('Win32_LogicalDisk').exec(cb);
+  },
   chainWithFn: function(cb) {
     wmi.Query().class('Win32_LogicalDisk', cb);
   }
